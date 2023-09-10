@@ -52,7 +52,6 @@ document.querySelectorAll(".img-slider").forEach((img, index) => {
       .querySelector("#prod-image")
       .setAttribute("src", `${product.images[index]}`);
     img.classList.add("border-2");
-    console.log(img.src);
   });
 });
 
@@ -86,5 +85,3 @@ let banner = document.querySelector(".banner");
 document.querySelector("#k").addEventListener("click", () => {
   banner.classList.toggle("hidden");
 });
-
-
